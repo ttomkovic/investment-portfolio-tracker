@@ -205,11 +205,9 @@ if __name__ == "__main__":
     current_prices = {
         "AAPL": 150.0,
         "MSFT": 380.0,
-        "NVDA": 250.0,
-        "TTEK": 100.0
-    }  
+        }  
 
-    print("Investment Portfolio Tracker\nSelect price source:\n1. Manual prices (demo)\n2. Live prices (Alpha Vantage)")
+    print("INVESTMENT PORTFOLIO TRACKER\nSelect price source:\n1. Manual prices (demo)\n2. Live prices (Alpha Vantage)")
     choice = input("Enter choice: ")
 
     try:
